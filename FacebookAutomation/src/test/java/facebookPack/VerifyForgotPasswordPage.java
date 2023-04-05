@@ -84,16 +84,12 @@ public class VerifyForgotPasswordPage {
 		if(expectedURL.equals(actualURL) && (expectedTitle.equals(actualTitle)))
 		{
 			System.out.println("PASSED");
+			System.out.println("pass");
 		}
 		else
 		{
 			System.out.println("FAILD");
 		}
-		
-		
-		
-		
-		
 		
 	}
 }
